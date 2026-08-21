@@ -1,8 +1,8 @@
 //! Owned scenes, arbitrary-child viewports, forms, and custom drawing.
 
-use ratatui_core::layout::Rect;
 use tuika::prelude::*;
 use tuika::testing::{grid, render};
+use tuika::ui::Rect;
 use tuika::view::DrawView;
 
 fn main() {

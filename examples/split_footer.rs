@@ -19,9 +19,9 @@ use std::sync::atomic::{AtomicBool, AtomicU64, Ordering};
 use std::thread;
 use std::time::Duration;
 
-use ratatui::style::{Modifier, Style};
-use ratatui::text::{Line, Span};
 use tuika::prelude::*;
+use tuika::ui::{Line, Span};
+use tuika::ui::{Modifier, Style};
 
 /// Rows the footer reserves. Everything above is the terminal's.
 const FOOTER_ROWS: u16 = 5;

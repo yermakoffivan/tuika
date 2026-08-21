@@ -37,8 +37,8 @@ use std::thread;
 use std::time::Duration;
 
 use portable_pty::{CommandBuilder, NativePtySystem, PtySize, PtySystem};
-use ratatui::style::Color;
 use tuika::prelude::Theme;
+use tuika::ui::Color;
 
 /// Recorded grid. Wide enough for the footer's key hints, tall enough to show
 /// several published blocks plus the shell line that started the session.

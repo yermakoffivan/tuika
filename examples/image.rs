@@ -12,8 +12,8 @@
 
 use std::io;
 
-use ratatui::style::Style;
-use ratatui::text::Span;
+use tuika::ui::Span;
+use tuika::ui::Style;
 
 use tuika::prelude::*;
 use tuika::term::image::{ImageData, ImageSupport};
